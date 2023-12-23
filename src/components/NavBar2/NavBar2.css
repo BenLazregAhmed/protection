@@ -1,0 +1,82 @@
+.nav-bar2-div{
+    width: 100%;
+    min-height: 22vh;
+    background-color: #025464;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    transition:step-start;
+    color: #fff;
+}
+
+.nav-bar2-div:hover{
+    background-color: #fff;
+    color: #025464;
+}
+.nav-bar2-div:hover *{
+    color: #025464;
+}
+.nav-bar2-div:hover .log-sign-btn{
+    color: #025464;
+    border-color: #025464;
+    background-color: transparent;
+}
+.nav-bar2-div .log-sign-btn:hover{
+    color: #fff;
+    border-color: #025464;
+    background-color: #025464;
+}
+.nav-bar2-div:hover p{
+text-shadow: none;
+}
+.logo-link-nav{
+    text-decoration: none;
+    font-size: large;
+}
+.logo-link-nav:hover{
+    text-decoration: none;
+}
+.logo-link-nav-col{
+    margin: auto;
+}
+.drop-down-first-section .btn-drop-down-section1{
+    background-color: #025464;
+    border-color: #025464;
+    color: #fff;
+}
+.drop-down-first-section .btn-drop-down-section1:hover{
+    color: #025464;
+    background-color: #fff;
+    border-color: #025464;
+}
+.bars-div{
+    display: none;
+}
+@media screen and (max-width: 1100px) {
+    .menu-principal-div {
+      display: none;
+    }
+    .bars-div{
+        display: block;
+        margin-top: 3em;
+    }
+    .bars-div:hover{
+        cursor: pointer;
+    }
+    .bars-col{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+  }
+  .offcanvas-header .brand-off-canvas{
+    font-size: larger;
+    color: #025464;
+  }
+.logo-link-nav-off-canvas{
+    text-decoration: none;
+}
+.logo-link-nav-off-canvas:hover{
+    text-decoration: none;
+}

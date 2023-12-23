@@ -1,0 +1,52 @@
+.drop-down-item{
+    height: 80%;
+    border-left: solid 1px grey;
+}
+.drop-down-item-list{
+    width: 80%;
+    height: 43px;
+    margin-top: 2em;
+}
+.drop-down-item-list:hover{
+    border-radius: 5px;
+    background-color: lightslategray;
+    color: aliceblue;
+    cursor: pointer;
+}
+.drop-down-item-link{
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    color: #025464;
+}
+.drop-down-item-link:hover{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+.li-decouverte{
+    width: 80%;
+    height: auto;
+    min-height: 43px;
+    margin-top: 2em;
+    text-align: center;
+}
+.li-decouverte:hover{
+    border-radius: 5px;
+    background-color: lightslategray;
+}
+.link-decouverte{
+    width: 80%;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    color: #025464;
+    min-height: 43px;
+    margin-top: 2em;
+}
+.link-decouverte:hover{
+    border-radius: 5px;
+    background-color: lightslategray;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.double-drop{
+    background-color: rgba(119, 136, 153, 0.158);
+    border-radius: 6px;
+    width: 80%;
+}
+.double-drop-down-item-list{
+    font-size: 18px;
+    font-weight: 530;
+    margin-bottom: 0.6em;
+    padding: 5px;
+}
+.double-drop-down-item-link{
+    text-decoration: none;
+}
+.double-drop-down-item-link:hover{
+}

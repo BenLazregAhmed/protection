@@ -1,0 +1,29 @@
+.navbar{
+    background-color:transparent;
+    height: 100px;
+    color: #113946;
+    z-index: 2;
+}
+.nav-link{
+    color: #113946;
+}
+.nav{
+    background-color: #FFF2D8;
+    color: #113946;
+}
+.btn-header{
+    background-color: #113946;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 1em;
+    width: 100px;
+    text-decoration: none;
+    position:relative;
+}
+.brand{
+    font-size: larger;
+    font-weight: 500;
+    font-family: Georgia, serif;
+    color: #fff;
+}

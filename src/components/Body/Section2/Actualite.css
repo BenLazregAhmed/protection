@@ -1,0 +1,23 @@
+.actualite-div{
+    background-color: #f8f9fa;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 15px;
+    padding: 10px;
+}
+.row-title h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #FFF2D8;
+    font-size: 40px;
+}
+.row-title{
+    margin-top: 1em;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #113946;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+}

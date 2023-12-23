@@ -1,0 +1,38 @@
+.log-sign-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.log-sign-row .log-sign-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #fff;
+    border-width: 2px;
+    border: solid;
+    font-weight: 600;
+    width: 90%;
+    height: 45px;
+    margin-top: 1em;
+}
+.menu-items-row{
+    padding-left: 8px;
+}
+.menu-items-row p{
+    font-size: larger;
+    height: 100%;
+    width: 80%;
+    font-weight: 550;
+    transition: 0.5s ease;
+}
+.menu-items-row p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.log-sign-row Col{
+width: 70%;    
+height: 50vh;
+}

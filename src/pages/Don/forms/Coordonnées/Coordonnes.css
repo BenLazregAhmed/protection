@@ -1,0 +1,65 @@
+.coordonnees{
+    height: 90vh;
+    width: 500px;
+    margin-top: 2em;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+    padding: 15px;
+    border-left: solid 1px;
+    border-top: solid 1px;
+}
+.coordonnees .title-row{
+    background-color: #025464;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    height: 9vh;
+}
+.coordonnees .row{
+    display: flex;
+    justify-content:center;
+}
+.coordonnees .row *{
+    margin-bottom: 1.5em;
+}
+.email-row {
+    margin-top: 1em;
+}
+.email-row input[type="email"]{
+    width: 80%;
+}
+.btn-row2 .btn{
+    margin-top: 2em;
+    width: 40%;
+    background-color: #025464;
+    border-color: #025464;
+}
+.btn-row2 .btn:hover{
+    background-color: #025464f2;
+}
+.coordonnees input[type="text"]{
+    height: 40px;
+}
+.nom-row input[type="text"]{
+    width: 80%;
+}
+.prenom-row input[type="text"]{
+    width: 80%;
+}
+.adresse-row input[type="text"]{
+    width: 80%;
+}
+.contries-row select{
+    width: 80%;
+    height: 35px;
+}
+.logo-col{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-col i{
+    margin:auto;
+    color: #9AD0C2;
+}
