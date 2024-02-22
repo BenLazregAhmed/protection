@@ -1,0 +1,15 @@
+@keyframes slideIn {
+    from {
+      transform: translateX(-1%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+.drop-down{
+    background-color: #fff;
+    position: relative;
+    height:auto;
+    z-index: 2;
+    animation: slideIn  0.7s ease-out;
+}

@@ -1,0 +1,17 @@
+.links-div{
+    justify-content: center;
+}
+.links-div li{
+    margin-top: 1em;
+}
+.links-div a {
+   
+    color: #FFF2D8;
+    text-decoration: none; 
+    transition:  1s ease;
+  }
+  
+.links-div a:hover {
+    text-decoration-line: underline;
+    color: #bba484; 
+  }

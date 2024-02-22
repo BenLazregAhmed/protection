@@ -1,0 +1,39 @@
+.btn-mnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 3px rgb(92, 90, 90);
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    color: #435585;
+    transition: 0.7s ease;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 550;
+}
+.btn-mnt:hover{
+    transform: scale(1.08);
+    background-color: rgb(2, 84, 100);
+    color: aliceblue;
+}
+.btn-mtn-selected{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 3px rgb(92, 90, 90);
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    background-color: #435585;
+    color: aliceblue;
+    transition: 0.7s ease;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 550;
+}
+.btn-mtn-selected:hover{
+    transform: scale(1.12);
+    background-color: rgb(2, 84, 100);
+    color: aliceblue;
+}

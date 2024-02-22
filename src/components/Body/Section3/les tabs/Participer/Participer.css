@@ -1,0 +1,8 @@
+.rowCardDevenir{
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    height: 300px;
+}

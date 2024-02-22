@@ -1,0 +1,51 @@
+.actualite-div{
+    background-color: #f8f9fa;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 15px;
+    padding: 10px;
+}
+.row-title h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #FFF2D8;
+    font-size: 40px;
+}
+.row-title{
+    margin-top: 1em;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #113946;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+}
+.my-card:hover{
+    background-color: rgb(249, 241, 228);
+    transform: scale(1.05);
+    box-shadow: inset;
+}
+.my-card{
+    width: 20%;
+    height: 500px;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transition: transform 500ms ease;
+    cursor:pointer;
+}
+.h5{
+    color: #113946;
+    font-family:sans-serif;
+    font-weight: 700;
+}
+.my-card p{
+    color: #c69657;
+    font-family:sans-serif;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+.my-card .btn{
+    border-radius: 20px;
+}

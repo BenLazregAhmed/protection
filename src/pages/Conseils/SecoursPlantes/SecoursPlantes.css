@@ -1,0 +1,21 @@
+
+.divTitle{
+    display: block;
+}
+.divTitle img{
+    width: 1000px;
+    height: 500px;
+    margin-left: 120px;
+}
+.titleH1{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.titleH4{
+    color:burlywood;
+}
+.titleH6{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

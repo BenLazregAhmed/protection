@@ -1,0 +1,46 @@
+
+.grve-filter {
+    margin-bottom: 3.75rem;
+    user-select: none;
+    overflow: hidden;
+}
+
+
+.grve-filter ul {
+    list-style: none;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content: space-around;
+    
+}
+
+.plantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .plante {
+    margin-bottom: 20px;
+    flex: 0 0 calc(50% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .plante:nth-child(even) .card-body {
+    order: 1; /* Inverse l'ordre pour les éléments pairs */
+  }
+  
+  .card-img {
+    width: 100%;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

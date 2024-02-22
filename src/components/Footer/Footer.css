@@ -1,0 +1,12 @@
+.footer{
+    background-color: #113946;
+    color: aliceblue;
+    margin-top: 1em;
+}
+h4{
+   justify-self: center;
+   color: darkgoldenrod;
+}
+ul {
+    list-style: none;
+  }

@@ -1,0 +1,123 @@
+ .title-div{
+    background-color: #e5e5e5;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.row-title h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    font-family: "AvenirNextCondensed", Arial, sans-serif !important;
+    margin-bottom: 1em;
+    color: #004225;/* #18295C;*/
+    font-size: 25px;
+}
+
+.row-title{
+    margin-top: 1em;
+    width: 40%;
+    border-radius: 8px;
+    background-color: beige;
+    box-shadow: 10px 10px 6px  rgb(215, 209, 209);
+
+}
+
+
+.CardContainer {
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.CardHorizontal-hero {
+    background: #e5e5e5;
+    position: relative;
+    flex: 0 0 110px;
+    margin-right: 10px;
+    width: 100%;
+    height: 110px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+}
+.b{
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+.CardHorizontal {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+   background-color: #fff;
+    border-radius: 5px;
+}
+.CardHorizontal-Image {
+    width: 80%;
+    height: 180PX;
+    object-fit: cover; 
+    border-radius: 5px;
+}
+.CardHorizontal-headerInfosDate {
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: darkgoldenrod;
+    font-family: "AvenirNextCondensed", Arial, sans-serif !important;
+}
+.CardHorizontal-header-intro {
+    height: 130px;
+}
+.CardHorizontal-intro {
+    height: 60px;
+    font-family: "AvenirNextCondensed", Arial, sans-serif !important;
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    font-weight: 500;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+} 
+/* .CardHorizontal-ctaIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    color: #222; 
+    color: #fff;
+    background-color: #222;
+    transform: rotate(45deg);
+    transition: transform .15s;
+    border-radius: 2px;
+}  */
+/* .more-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4px;
+    height: 15px;
+    color:beige;
+    background-color: #18295C; 
+    border: 1px solid #18295C;
+    border-radius: 2px;
+    top: 20px;
+    right: 20px;
+    transition: transform 0.3s ease;
+
+}
+.more-info:hover{
+    transform: rotate(45deg);
+    transition: transform .15s;
+    transform: scale(1.2);  
+    background-color: beige;
+    color: #18295C; 
+} */

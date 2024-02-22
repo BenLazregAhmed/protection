@@ -1,0 +1,46 @@
+.btn-grp{
+    margin-top: 1em;
+}
+.btn-grp Button{
+    margin-left: 5px;
+}
+.news-text{
+    margin-top: 1em;
+    font-family: Georgia, serif;
+}
+input[type="email"] {
+    width: 60%;
+    padding: 10px;
+    margin: 8px 0;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  input[type="email"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+.btn-grp .btn{
+    background-color: #526D82;
+    border-color: #BCA37F;
+    transition: transform 500ms ease;
+    cursor:pointer;
+  }
+  .btn-grp .btn:hover{
+    transform: scale(1.05); 
+    background-color: #427d9df5;
+
+  }  
+.new-submit{
+    background-color: #526D82;
+    border-color: #BCA37F;
+    transition: transform 500ms ease;
+    cursor:pointer;
+}
+.new-submit:hover{
+    transform: scale(1.05); 
+    background-color: #427d9df5;
+  }

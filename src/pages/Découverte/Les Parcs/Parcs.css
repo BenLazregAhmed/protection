@@ -1,0 +1,129 @@
+
+.parcs{
+    display: flex;
+    flex-wrap: wrap; 
+}
+  .parc1{
+    display: flex;
+    border: 2px solid #F5E8B7 ;
+    justify-content: start;
+    text-align: center;
+    height:280px;
+    width: 350px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6;
+    transition: transform 0.3s ease;
+    background-image: url('./images/ichkeul-national-park.jpg'); 
+    background-size: cover; 
+    background-position: center;
+  }
+  .parc2{
+    display: flex;
+    border: 2px solid #F5E8B7 ;
+    justify-content: start;
+    text-align: center;
+    flex-wrap: wrap;
+    height:280px;
+    width: 350px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6;
+    transition: transform 0.3s ease;
+    background-image: url('./images/jbil170919-03.jpg'); 
+    background-size: cover; 
+    background-position: center;
+  }
+  .parc3{
+    display: flex;
+    border: 2px solid #F5E8B7 ;
+    justify-content: start;
+    text-align: center;
+    flex-wrap: wrap;
+    height:280px;
+    width: 350px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6;
+    transition: transform 0.3s ease;
+    background-image: url('./images/Boukornine_1-min.jpg'); 
+    background-size: cover; 
+    background-position: center;
+  }
+  .parc4{
+    display: flex;
+    border: 2px solid #F5E8B7 ;
+    justify-content: start;
+    text-align: center;
+    flex-wrap: wrap;
+    height:280px;
+    width: 350px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6;
+    transition: transform 0.3s ease;
+    background-image: url('./images/Temple-des-Eaux-de-Zaghouan.jpg'); 
+    background-size: cover; 
+    background-position: center;
+  }
+  .parc5{
+    display: flex;
+    border: 2px solid #F5E8B7 ;
+    justify-content: start;
+    text-align: center;
+    flex-wrap: wrap;
+    height:280px;
+    width: 350px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6;
+    transition: transform 0.3s ease;
+    background-image: url('./images/cap.jpg'); 
+    background-size: cover; 
+    background-position: center;
+  } 
+  parc6{
+    display: flex;
+    border: 2px solid #F5E8B7 ;
+    height:280px;
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6;
+    transition: transform 0.3s ease;
+    background-image: url('./images/bh.jpg'); 
+    background-size: cover; 
+    background-position: center;
+  } 
+
+  .parc:hover{
+    transform: scale(1.1);
+  }
+  .pt{
+    font-weight: bold;
+    color:#fcecec;
+
+  }
+  a{
+    text-decoration: none;
+    color:#004225;
+    /* color: #18295C; */
+
+
+  }
+  a:hover{
+    color: darkgoldenrod;
+  }
+.contenu{
+    display: inline-block;   
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 10px;
+    
+
+}
