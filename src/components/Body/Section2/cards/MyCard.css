@@ -1,4 +1,4 @@
-/* .my-card:hover{
+.my-card:hover{
     background-color: rgb(249, 241, 228);
     transform: scale(1.05);
     box-shadow: inset;
@@ -25,4 +25,4 @@
 }
 .my-card .btn{
     border-radius: 20px;
-} */
+}

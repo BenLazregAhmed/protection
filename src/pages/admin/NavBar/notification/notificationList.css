@@ -1,0 +1,10 @@
+.notif-list{
+    list-style-type: none;
+    padding: 0;
+    width: max-content;
+}
+.notif-list-container{
+    max-height: 200px;
+    width: max-content;
+    overflow-y: auto;
+}

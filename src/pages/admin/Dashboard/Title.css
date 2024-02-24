@@ -1,0 +1,8 @@
+.off-title{
+    background-color: blue;
+    color: aliceblue;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 3;
+    top: 80px;
+}

@@ -22,6 +22,14 @@ import Signalement from './pages/Protection/Signalement/Signalement'
 import BénéficiaireActuel from './pages/Bénéficiaires/Bénéficaires Actuels/BénéficiaireActuel'
 import BénéficaireAncien from './pages/Bénéficiaires/Bénéficaires Anciens/BénéficaireAncien'
 import DevenirBénéficaire from './pages/Bénéficiaires/Devenir Bénéficaire/DevenirBénéficaire'
+import AdminHome from './pages/admin/Home/AdminHome'
+import DisplayAllUsers from './pages/admin/Manage/users/DisplayAllUsers'
+import DisplayAllActualite from './pages/admin/Manage/actualités/DisplayAllActualite'
+import DisplayAllCarouselItems from './pages/admin/Manage/carousel/DisplayAllCarouselItems'
+import DisplayAllEspeces from './pages/admin/Manage/Especes/DisplayAllEspeces'
+import DisplayAllPartenaires from './pages/admin/Manage/partenaires/DisplayAllPartenaires'
+import DisplayAllProjects from './pages/admin/Manage/Projets/DisplayAllProjects'
+import DisplayAllParcs from './pages/admin/Manage/parcs/DisplayAllParcs'
 function App() {
   const router=createBrowserRouter(
     createRoutesFromElements(
@@ -49,7 +57,19 @@ function App() {
         <Route path='/SignUp' element={<SignUp/>}/>
       </>
     ))
-
+    const Admin_router=createBrowserRouter(
+      createRoutesFromElements(
+        <>
+          <Route path='/' element={<AdminHome/>}/>
+          <Route path='/news' element={<DisplayAllActualite></DisplayAllActualite>}/>
+          <Route path='/users' element={<DisplayAllUsers></DisplayAllUsers>}/>
+          <Route path='/carousel' element={<DisplayAllCarouselItems></DisplayAllCarouselItems>}/>
+          <Route path='/especes' element={<DisplayAllEspeces></DisplayAllEspeces>}/>
+          <Route path='/partenaires' element={<DisplayAllPartenaires></DisplayAllPartenaires>}/>
+          <Route path='/projet' element={<DisplayAllProjects></DisplayAllProjects>}/>
+          <Route path='/parcs' element={<DisplayAllParcs></DisplayAllParcs>}/>
+        </>
+      ))
   return (
     <>
       <RouterProvider router={router}/>

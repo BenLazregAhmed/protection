@@ -14,7 +14,7 @@ function NavBar2() {
   return (
     <div className='nav-bar2-div'>
                 <Col className='logo-link-nav-col' lg='2' md='2' xs='0'>
-                    <Link to='#' className='logo-link-nav'>
+                    <Link to='/' className='logo-link-nav'>
                         <p className='brand'>Protect Wild Life <i className="fa-solid fa-paw"></i> </p> 
                     </Link>
                 </Col>

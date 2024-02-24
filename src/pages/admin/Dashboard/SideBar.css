@@ -1,0 +1,33 @@
+.dashboard li{
+    margin-top: 1.7em;
+    margin-bottom: 2.6em;
+}
+.dashboard li:hover{
+    background-color: rgba(240, 248, 255, 0.882);
+}
+.carousel-li-admin p{
+    margin-top: 3em;
+
+}
+.dashboard{
+    width: max-content ;
+    height: 730px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 3;
+    top: 80px;
+    border-left: none;
+    border-top-right-radius: 5px;
+    padding: 1em;
+    margin-left: 68px;
+    background-color: aliceblue;
+}
+.dashboard p{
+    font-size: medium;
+    font-weight: 400;
+}
+.dashboard a{
+    margin-top: 2em;
+    text-decoration: none;
+    color: gray;
+}

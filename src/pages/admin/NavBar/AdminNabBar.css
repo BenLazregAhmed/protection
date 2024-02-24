@@ -1,0 +1,55 @@
+.admin-nav-bar{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #5B0888;
+    color: #E5CFF7;
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-right: 2em;
+    margin-left: 3em;
+}
+img:hover{
+    cursor: pointer;
+}
+.notification{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-right: 0em;
+    margin-left: 3em;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 6px;
+}
+.notification:hover{
+    cursor: pointer;
+    background-color: rgba(186, 196, 199, 0.725);
+}
+.notification:active{
+    background-color: rgba(189, 221, 231, 0.642);
+}
+.notification i{
+    margin: auto;
+    margin-bottom: 1em;
+}
+input[type="search"]{
+    height: 35px;
+    margin: auto;
+}
+.hamburger-menu{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-right: 0em;
+    margin-left: 6em;
+}
+.hamburger-menu :hover{
+    cursor: pointer;
+}

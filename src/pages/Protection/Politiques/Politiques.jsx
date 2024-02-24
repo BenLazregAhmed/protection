@@ -12,10 +12,10 @@ const Politiques = () => {
    <NavBar2/>
     <Container className="mt-5">
       <Row>
-        <h1>Les Politiques nationales de protection </h1>
+        <h1 className='politics-h1'>Les Politiques nationales de protection </h1>
         <hr></hr>
         <Col>
-          <h3>Stratégie et plan d’action nationaux pour la biodiversité 2018-2030</h3>
+          <h3 className='politics-h3'>Stratégie et plan d’action nationaux pour la biodiversité 2018-2030</h3>
           <Image src="../../../images/Cap1.png" alt="img"   />
           
           <p>
@@ -54,7 +54,7 @@ const Politiques = () => {
       </Row> */}
       <Row>
         <Col>
-        <h3>Plan d’action pour l’application du Programme de travail sur les aires protégées de la Convention sur la Diversité Biologique</h3>
+        <h3 className='politics-h1'>Plan d’action pour l’application du Programme de travail sur les aires protégées de la Convention sur la Diversité Biologique</h3>
         <Image src="../../../images/Cap2.png" alt="img"   />
         <p>
             La Tunisie, pays aride, soumise à l’influence du climat méditerranéen avec une moyenne de pluviométrie n’excédant pas les 200 mm/an, dispose d’une variété spécifique et écosystémique bien importante variant du Nord au Sud. L’actualisation de l’étude nationale sur la diversité biologique en 2009, a décelé que le nombre d’espèces animales et végétales terrestres et aquatiques identifiés jusque là s’élève à environ 7200 espèces. Ces dernières se trouvent réparties sur 69 écosystèmes naturels et environ 12 agrosystèmes.
@@ -77,7 +77,7 @@ const Politiques = () => {
       </Row>
       <Row>
         <Col>
-        <h3>Convention sur la conservation des espèces migratrices appartenant à la faune sauvage</h3>
+        <h3 className='politics-h1'>Convention sur la conservation des espèces migratrices appartenant à la faune sauvage</h3>
         <Image src="../../../images/Medium_WW182523.jpg" alt="img" />
         <p>
         En tant que traité environnemental du Programme des Nations Unies pour l’Environnement, la CMS offre une plateforme globale pour la conservation et l’utilisation durable des animaux migrateurs et de leurs habitats. La CMS réunit les Etats traversés par les animaux migrateurs, ou Etats de l’aire de répartition, et établit les bases juridiques sur lesquelles s’appuient les mesures de conservation coordonnées internationalement pour une espèce migratrice.
@@ -99,7 +99,7 @@ const Politiques = () => {
       </Row>
       <Row>
         <Col>
-        <h3>Stratégie et plan d’action pour la conservation du mouflon à manchettes (Ammotragus lervia) en Tunisie 2018-2027</h3>
+        <h3 className='politics-h1'>Stratégie et plan d’action pour la conservation du mouflon à manchettes (Ammotragus lervia) en Tunisie 2018-2027</h3>
         <Image src="../../../images/OIP (14).jpg" alt="img" />
         <p>Le mouflon à manchettes (Ammotragus lervia), un ongulé endémique du nord de l’Afrique, est actuellement classé en tant qu’espèce Vulnérable d’après la Liste rouge des 
           espèces menacées de l’UICN™ (Cassinello et al., 2008), ses effectifs en Tunisie étant peu nombreux et en déclin.

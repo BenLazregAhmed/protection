@@ -1,68 +1,46 @@
-import React from 'react';
+import React, { useEffect ,useState} from 'react';
 import './Parcs.css'
-import NavBar from '../../../components/NavBar/NavBar';
-
+import NavBar2 from '../../../../../protection/src/components/NavBar2/NavBar2';
+import Footer from '../../../../../protection/src/components/Footer/Footer';
+import { Col, Row } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+const base_url="http://localhost:8080/parc"
 
 const Parcs = () => {
-     
+    const [user,setUsers]=useState([])
+    const fetchUsers = async ()=>{
+        const response = await fetch(base_url+"/get-all")
+        const users = await response.json()
+        setUsers(users)
+      }
+      useEffect(()=>{
+        fetchUsers()
+      }
+      ,[])
   return (
     <>
-  <NavBar/>
+  <NavBar2/>
     <div className='c'>
     <h1 className='headingStyle' >
     La liste des parcs
     </h1>
     </div>
-    <section class="parcs">
-    <div className='parc'>
-    <div className='parc1'>
-        <div className='contenu'>
-        <p className='pt'>Parc national de Ichkeul</p>
-        <a href='https://fr.wikipedia.org/wiki/Parc_national_de_l%27Ichkeul'>Explorer +</a>
-        </div>
-    </div>
-    </div>
-    <div className='parc'>
-    <div className='parc2'>
-        <div className='contenu'>
-        <p className='pt'>Le Parc national de Jbil</p>
-        <a href='https://guide-voyage-tunisie.com/le-parc-national-de-jbil/'>Explorer +</a>
-        </div>
-    </div>
-    </div>
-    <div className='parc'>
-    <div className='parc3'>
-        <div className='contenu'>
-        <p className='pt'>Le parc national Boukornine</p>
-        <a href='https://guide-voyage-tunisie.com/le-parc-national-boukornine/'>Explorer +</a>
-        </div>
-    </div>
-    </div>
-    <div className='parc'>
-    <div className='parc4'>
-        <div className='contenu'>
-           <p className='pt'>Le parc national de Jebel Zaghouan</p>
-           <a href='https://fr.wikipedia.org/wiki/Parc_national_de_Jebel_Zaghouan'>Explorer +</a>
-        </div>
-    </div>
-    </div>
-    <div className='parc'>
-    <div className='parc5'>
-        <div className='contenu'>
-           <p className='pt'>Le parc national Jebel Chitana Cap Négro</p>
-           <a href='https://fr.wikipedia.org/wiki/Parc_national_de_Jebel_Chitana-Cap_N%C3%A9gro'>Explorer +</a>
-        </div>
-    </div>
-    </div>
-    {/* <div className='parc'>
-    <div className='parc6'>
-        <div className='contenu'>
-           <p className='pt'>Parc national de Bouhedma</p>
-           <a href='https://fr.wikipedia.org/wiki/Parc_national_de_Bouhedma'>Explorer +</a>
-        </div>
-    </div>
-    </div> */}
-   </section>
+    <Row >
+          {user.map((item, index) => (
+          
+    <Col key={item.id} className='parc-col' xs={12} md={6} lg={3}>
+        <Card style={{ width: '18rem' }} className='parc-card'>
+          <Card.Img variant="top"  src={item.image}/>
+          <Card.Body>
+            <Card.Title>{item.nom}</Card.Title>
+            <Button  variant="outline-primary"><a href={item.url}>En savoir +</a></Button>
+          </Card.Body>
+        </Card>
+    </Col>
+          ))}
+    </Row>
+   <Footer></Footer>
     </>
     )
 }

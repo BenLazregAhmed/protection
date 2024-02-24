@@ -35,11 +35,11 @@
     order: 1; /* Inverse l'ordre pour les éléments pairs */
   }
   
-  .card-img {
+  .animal .card-img {
     width: 100%;
   }
   
-  .card-body {
+ .animal .card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
