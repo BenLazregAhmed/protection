@@ -3,6 +3,7 @@ import React from 'react';
 import {Card ,Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar2 from '../../../components/NavBar2/NavBar2';
+import Footer from '../../../components/Footer/Footer';
 
 const BénéficiaireActuel = () => {
     const beneficiairesActuels = [
@@ -47,7 +48,9 @@ const BénéficiaireActuel = () => {
     
       return (
         <>
-        <NavBar2/>
+        <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
         <Container className="mt-5">
           <h1>Bénéficiaires Actuels de l'Association</h1>
           <Row>
@@ -82,6 +85,7 @@ const BénéficiaireActuel = () => {
           </Row>
          
         </Container>
+        <Footer></Footer>
         </>
       );
     };

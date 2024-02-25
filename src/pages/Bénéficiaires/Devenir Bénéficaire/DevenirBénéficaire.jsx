@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './DevenirBénéficaire.css'
 import NavBar2 from '../../../components/NavBar2/NavBar2'
+import Footer from '../../../../../protection/src/components/Footer/Footer';
 function DevenirBénéficaire() {
   
   const [nom, setNom] = useState('');
@@ -20,7 +21,9 @@ function DevenirBénéficaire() {
 
   return (
     <>
-    <NavBar2/>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
     <div className='formStyle'>
       <h1>Devenir Bénéficiaire</h1>
       <form onSubmit={handleSubmit}>
@@ -47,6 +50,7 @@ function DevenirBénéficaire() {
         <button type="submit">Soumettre</button>
       </form>
     </div>
+    <Footer></Footer>
     </>
   );
 }

@@ -5,11 +5,14 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Politiques.css'; 
 import NavBar2 from '../../../components/NavBar2/NavBar2';
+import Footer from '../../../components/Footer/Footer';
 
 const Politiques = () => {
   return (
     <>
-   <NavBar2/>
+   <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
     <Container className="mt-5">
       <Row>
         <h1 className='politics-h1'>Les Politiques nationales de protection </h1>
@@ -158,6 +161,7 @@ const Politiques = () => {
         </Col>
       </Row>
     </Container>
+    <Footer></Footer>
     </>
   );
 };

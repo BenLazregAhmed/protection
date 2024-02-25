@@ -1,6 +1,7 @@
 import React , {useEffect, useState} from 'react';
 import './Partenaires.css'
 import NavBar2 from '../../components/NavBar2/NavBar2';
+import Footer from '../../../../protection/src/components/Footer/Footer';
 const base_url="http://localhost:8080/partenaire"
 
 const Partenaires = () => {
@@ -16,7 +17,9 @@ const Partenaires = () => {
   return (
     
     <>
-  <NavBar2 />
+  <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
  
     <div className='c'>
     <h1 className='headingStyle' >
@@ -37,6 +40,7 @@ const Partenaires = () => {
   }
 
    </section>
+   <Footer></Footer>
     </>
     )
 }

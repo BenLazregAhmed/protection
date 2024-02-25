@@ -6,7 +6,9 @@ import './Status.css'
 const Status = () => {
   return (
     <>
-    <NavBar2/>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
 
     <div className="container mt-5 text-dark">
       <div className="text-center mb-4">

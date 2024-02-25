@@ -1,11 +1,14 @@
 import React from 'react'
 import NavBar2 from '../../../components/NavBar2/NavBar2';
 import './SecoursPlantes.css'
+import Footer from '../../../../../protection/src/components/Footer/Footer';
 
 const SecoursAnimal = () => {
   return (
     <>
-    <NavBar2/>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
           <div className="container mt-4">
             <div className='divTitle'>
               <h1 className="titleH1">Des gestes simples et essentiels pour secourir vos plantes</h1>
@@ -87,7 +90,7 @@ const SecoursAnimal = () => {
             
 
           </div>
-
+        <Footer></Footer>
           </>
         );
       };

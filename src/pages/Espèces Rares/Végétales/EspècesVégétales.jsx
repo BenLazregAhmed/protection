@@ -3,6 +3,7 @@ import './EspècesVégétales.css'
 import NavBar2 from '../../../components/NavBar2/NavBar2'
 import Card from 'react-bootstrap/Card';
 import { useState } from 'react';
+import Footer from '../../../../../protection/src/components/Footer/Footer';
 
 const EspècesVégétales = () => {
 
@@ -19,7 +20,9 @@ const EspècesVégétales = () => {
 
   return (
     <>
-    <NavBar2/>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
     <div className="grve-filter " data-gototop="yes">
 				<ul>
 					<li onClick={handleItemClick3} className="c2" ><span>Dans tout le monde </span></li>
@@ -155,7 +158,7 @@ const EspècesVégétales = () => {
      
         </div>
       )}
-
+    <Footer></Footer>
     </>
 
   )

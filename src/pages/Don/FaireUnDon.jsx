@@ -11,7 +11,9 @@ import NavBar2 from '../../components/NavBar2/NavBar2'
 function FaireUnDon() {
   return (
     <>
-    <NavBar2></NavBar2>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
     <Container className='don-container'>
       <Row className='don-title-row'>
         <h1>Votre monnaie est entre de bonnes mains</h1>

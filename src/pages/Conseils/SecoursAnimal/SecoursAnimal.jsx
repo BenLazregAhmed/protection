@@ -5,7 +5,9 @@ import './SecoursAnimal.css'
 const SecoursAnimal = () => {
   return (
     <>
-    <NavBar2/>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
           <div className="container mt-4">
             <div className='divTitle'>
               <img src="../../../public/images/l.png"/>
@@ -132,7 +134,7 @@ const SecoursAnimal = () => {
               </div>
             </div>
           </div>
-
+          <Footer></Footer>
           </>
         );
       };

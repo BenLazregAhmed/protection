@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Signalement.css'
 import NavBar2 from '../../../components/NavBar2/NavBar2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Footer from '../../../components/Footer/Footer';
 
 
 const Signalement = () => {
@@ -22,7 +23,9 @@ const Signalement = () => {
 
   return (
     <>
-    <NavBar2/>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
     <Container className="mt-5">
     {/* <FontAwesomeIcon icon="fa-solid fa-triangle-exclamation" /> */}
       <h1 className='titreSD'>Signaler un Dépassement !</h1>
@@ -55,6 +58,7 @@ const Signalement = () => {
         </Button>
       </Form>
     </Container>
+    <Footer></Footer>
     </>
   );
 };

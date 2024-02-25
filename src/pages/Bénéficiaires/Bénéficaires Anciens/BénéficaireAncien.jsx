@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar2 from '../../../components/NavBar2/NavBar2'
 import { Container,Card,Row,Col } from 'react-bootstrap';
+import Footer from '../../../components/Footer/Footer';
 function BénéficaireAncien() {
     const beneficiairesAnciens = [
         {
@@ -34,7 +35,9 @@ function BénéficaireAncien() {
 
   return (
     <>
-      <NavBar2/>
+      <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
       <Container className="mt-5">
       <h1>Bénéficiaires Anciens</h1>
       <Row>
@@ -52,6 +55,7 @@ function BénéficaireAncien() {
     ))}
       </Row>
       </Container>
+      <Footer></Footer>
    </>
    );
 };

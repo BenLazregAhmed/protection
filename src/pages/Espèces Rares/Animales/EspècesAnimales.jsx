@@ -3,6 +3,7 @@ import './EspècesAnimales.css'
 import NavBar2 from '../../../components/NavBar2/NavBar2'
 import Card from 'react-bootstrap/Card';
 import { useState } from 'react';
+import Footer from '../../../../../protection/src/components/Footer/Footer';
 
 const EspècesAnimales = () => {
 
@@ -19,7 +20,9 @@ const EspècesAnimales = () => {
 
   return (
     <>
-    <NavBar2/>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
     <div className="grve-filter " data-gototop="yes">
 				<ul>
 					<li onClick={handleItemClick1} className="c2" ><span>Dans tout le monde </span></li>
@@ -227,19 +230,10 @@ const EspècesAnimales = () => {
 
         </div>
       )}
-    
+    <Footer></Footer>
     </>
 
   )
 }
 
 export default EspècesAnimales
-
-
-{/* 
-            <select class="grve-filters-select">
-				<option value="*">Tous les projets</option>
-					<option value=".portfolio_category-projets-anterieurs">Projets antérieurs</option>
-					<option value=".portfolio_category-projets-en-cours">Projets en cours</option>
-			</select>
-    </div> */}

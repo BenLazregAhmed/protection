@@ -3,6 +3,7 @@ import { Card, Container, Row, Col } from 'react-bootstrap';
 import './Projects.css'
 import Button from 'react-bootstrap/Button';
 import NavBar2 from '../../components/NavBar2/NavBar2';
+import Footer from '../../components/Footer/Footer';
 
 const base_url="http://localhost:8080/projet"
 const HorizontalCard = () => {
@@ -18,7 +19,9 @@ fetchUsers()
 },[])
   return (
     <>
-    <NavBar2 />
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
     
     <div className='title-div'>
     
@@ -44,6 +47,7 @@ fetchUsers()
       </Row>
     </Container>
     </div>
+    <Footer></Footer>
     </>
   );
 };

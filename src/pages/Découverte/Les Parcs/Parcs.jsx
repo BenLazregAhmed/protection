@@ -20,7 +20,9 @@ const Parcs = () => {
       ,[])
   return (
     <>
-  <NavBar2/>
+  <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
     <div className='c'>
     <h1 className='headingStyle' >
     La liste des parcs

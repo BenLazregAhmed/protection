@@ -1,10 +1,13 @@
 import React from 'react'
 import NavBar2 from '../../../components/NavBar2/NavBar2'
 import './Circuit.css'
+import Footer from '../../../../../protection/src/components/Footer/Footer';
 function Circuit() {
   return (
     <>
-    <NavBar2/>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
       <ul className="cbp_tmtimeline yes">
         <li>
           <span className="cbp_tmtime"></span>
@@ -146,6 +149,7 @@ function Circuit() {
        
        
       </ul>
+      <Footer></Footer>
     </>
   );}
 

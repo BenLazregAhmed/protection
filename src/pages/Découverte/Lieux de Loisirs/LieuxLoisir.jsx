@@ -2,10 +2,13 @@ import React from 'react';
 import { Carousel} from 'react-bootstrap';
 import Caption1 from '../../../components/Body/Section1/Caption/Caption1';
 import NavBar2 from '../../../components/NavBar2/NavBar2';
+import Footer from '../../../components/Footer/Footer';
 function LieuxLoisir() {
   return (
     <>
-    <NavBar2/>
+    <header className='home-page-header'>
+        <NavBar2></NavBar2> 
+      </header>
     <Carousel slide touch fade >
       <Carousel.Item>
       <img src='../../../images/ste-loisirs-de-tabarka.jpg'></img>
@@ -168,7 +171,7 @@ function LieuxLoisir() {
    
 
 
-
+    <Footer></Footer>
     </>
   )
 }
