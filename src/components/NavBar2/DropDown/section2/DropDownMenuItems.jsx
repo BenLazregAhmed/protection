@@ -40,7 +40,7 @@ function DropDownMenuItems({links,decouverte}) {
             <p className="link-decouverte" onClick={handleOpenProtection}>Protection  {!showProtection?<i className="fa-solid fa-caret-down"></i>:<i className="fa-solid fa-caret-up"></i>}</p>
             {showProtection && <DoubleDrop links={subProtectionItems}></DoubleDrop>}
           </li>
-          <li className='li-decouverte'>
+          <li >
           <p className='link-decouverte' onClick={handleOpenConseils}>Conseils  {!showConseils?<i className="fa-solid fa-caret-down"></i>:<i className="fa-solid fa-caret-up"></i>}</p>
             {showConseils && <DoubleDrop links={subConseils}></DoubleDrop>}
           </li>

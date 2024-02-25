@@ -1,3 +1,6 @@
+.don-container{
+    margin-top: 4em;
+}
 .don-title-row{
     background-color: #102C57;
     box-shadow: 10px 10px 6px rgb(92, 90, 90);
@@ -6,4 +9,15 @@
     text-align: center;
     height: 11vh;
     margin-top: 1em;
+    margin-bottom: 3em;
+}
+.don-row{
+    margin-top: 5em;
+}
+.don-sub-row{
+    width: 80%;
+    padding-top: 1em;
+}
+.don-sub-col{
+    padding-top: 0;
 }

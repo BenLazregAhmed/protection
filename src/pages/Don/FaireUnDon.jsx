@@ -7,22 +7,24 @@ import PaymentCard from './forms/Payment/PaymentCard'
 import Coordonnes from './forms/Coordonnées/Coordonnes'
 import Montant from './forms/Montant/Montant'
 import './FaireUnDon.css'
+import NavBar2 from '../../components/NavBar2/NavBar2'
 function FaireUnDon() {
   return (
     <>
-    <Container>
+    <NavBar2></NavBar2>
+    <Container className='don-container'>
       <Row className='don-title-row'>
         <h1>Votre monnaie est entre de bonnes mains</h1>
       </Row>
-        <Row>
-            <Col>
+        <Row className='don-row'>
+            <Col className='don-col'>
                 <Coordonnes></Coordonnes>
             </Col>
-            <Col>
-                <Row>
+            <Col className='don-sub-col'>
+                <Row className='don-row'>
                   <Montant></Montant>
                 </Row>
-                <Row>
+                <Row className='don-sub-row'>
                   <PaymentCard></PaymentCard>
                 </Row>
             </Col>

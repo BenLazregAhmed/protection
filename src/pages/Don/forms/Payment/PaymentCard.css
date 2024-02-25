@@ -2,13 +2,12 @@
     width: 500px;
     height: 260px;
     margin: auto;
-    margin-top: 2em;
+    margin-left: 4em;
     box-shadow: 10px 10px 6px rgb(92, 90, 90);
     padding: 15px;
     background-image: url("../../../../public/images/CreditCard.jpg");
     background-repeat: repeat-x;
     background-size: cover;
-    margin-bottom: 2em;
 }
 .btn-row{
     display: flex;
