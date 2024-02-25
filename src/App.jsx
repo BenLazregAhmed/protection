@@ -68,6 +68,7 @@ function App() {
           <Route path='/partenaires' element={<DisplayAllPartenaires></DisplayAllPartenaires>}/>
           <Route path='/projet' element={<DisplayAllProjects></DisplayAllProjects>}/>
           <Route path='/parcs' element={<DisplayAllParcs></DisplayAllParcs>}/>
+          <Route path='/login' element={<Login></Login>}/>
         </>
       ))
   return (
