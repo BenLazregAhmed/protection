@@ -14,31 +14,7 @@ function Actualite() {
     }
     useEffect(()=>{
         fetchnews()
-    },[])
-    const handleReload = () => {
-        fetchnews();
-      };
-    const handleAdd=()=>{
-      fetch('http://localhost:8080/news/set',{
-        method:'POST',
-        headers:{'content-type':'application/json'},
-        body: JSON.stringify({})
-      }).then(console.log(JSON.stringify({})))
-    }
-    const handleDelete=()=>{
-      fetch('http://localhost:8080/news/del?id='+id,{
-        method:'POST',
-        headers:{'content-type':'application/json'},
-      }).then(console.log(JSON.stringify({id})))
-    }
-    const handleUpdate=()=>{
-      fetch('http://localhost:8080/news/update',{
-        method:'POST',
-        headers:{'content-type':'application/json'},
-        body: JSON.stringify({})
-      }).then(console.log(JSON.stringify({})))
-    }
-    console.log(news)
+    },[]) 
   return (
     <div className='actualite-div'>
     <Container>
