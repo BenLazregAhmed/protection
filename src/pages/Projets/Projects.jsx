@@ -36,7 +36,6 @@ fetchUsers()
               <Card.Text className='CardHorizontal-intro'>
                 {item.description}
               </Card.Text>
-              {/* <Button  className='more-info' >+</Button> */}
             </Card.Body>
           </Card>
         </Col>
