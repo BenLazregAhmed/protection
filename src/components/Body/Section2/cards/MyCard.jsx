@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './MyCard.css';
 function MyCard({text,image,date}) {
+  console.log(image)
     return (
         <Card style={{ width: '18rem' }} className='my-card'>
           <Card.Img variant="top"  src={image}/>

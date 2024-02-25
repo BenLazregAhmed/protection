@@ -38,14 +38,15 @@ function Actualite() {
         body: JSON.stringify({})
       }).then(console.log(JSON.stringify({})))
     }
+    console.log(news)
   return (
     <div className='actualite-div'>
     <Container>
     <Row className='row-title'><Col><h2>L'Actualités</h2></Col></Row>
     <Row className='row-card'>
         {news.map((act, index) => (
-          <Col xs={12} md={6} lg={3} className='col-card'>
-            <MyCard key={index} {...act}></MyCard>
+          <Col key={index} xs={12} md={6} lg={3} className='col-card'>
+            <MyCard key={index} text={act.text} image={act.imageSrc} date={act.date}></MyCard>
           </Col>
         ))}
      </Row>
