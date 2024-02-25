@@ -11,7 +11,7 @@ function Login() {
   return (
     <>
         <Container>
-            <Row>
+            <Row className='login-row'>
                 <Col><img src="../../../public/images/Login.jpg"></img></Col>
                 <Col>
                     <LoginForm></LoginForm>

@@ -15,7 +15,7 @@ function SignUp() {
             <Row className='Signup-big-title-row'>
                 <h1>Welcome</h1>
             </Row>
-            <Row>
+            <Row className='Signup-form-row'>
                 <Col><img src="../../../public/images/SignUp.jpg"></img></Col>
                 <Col>
                     <SignForm></SignForm>
