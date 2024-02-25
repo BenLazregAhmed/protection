@@ -1,47 +1,41 @@
-import React from 'react';
+import React , {useEffect, useState} from 'react';
 import './Partenaires.css'
 import NavBar2 from '../../components/NavBar2/NavBar2';
+const base_url="http://localhost:8080/partenaire"
 
 const Partenaires = () => {
-     
+  const [user,setUsers]=useState([])
+  const fetchUsers = async ()=>{
+    const response = await fetch(base_url+"/get-categorie?categorie=public")
+    const users = await response.json()
+    setUsers(users)
+  }
+  useEffect(()=>{
+    fetchUsers()
+  },[])
   return (
+    
     <>
   <NavBar2 />
+ 
     <div className='c'>
     <h1 className='headingStyle' >
       Nos partenaires
     </h1>
     </div>
     <section class="partners">
-    
-    <div className='partenaire'>
-        <img src="./images/ministere-de-lenvironnement-et-du-developpement-durable.png" className='img-style'/>
+    {
+    user.map(partner=>(
+      <div className='partenaire'>
+        <img src={partner.logo} className='img-style'/>
         <div className='content'>
-        <p>Ministère de l'Environnement et du développement Durale</p>
-        <a href='https://www.environnement.gov.tn/'>Visit Website</a>
+        <p>{partner.titre}</p>
+        <a href={partner.url}>Visit Website</a>
         </div>
     </div>
-    <div className='partenaire'>
-        <img src="./images/OIP.jpg" className='img-style'/>
-        <div className='content'>
-        <p>Ministère de l'agriculture,des ressources hydrauliques et de la pèche</p>
-        <a href='http://www.agriculture.tn/'>Visit Website</a>
-        </div>
-    </div>
-    <div className='partenaire'>
-        <img src="./images/R.jpg" className='img-style'/>
-        <div className='content'>
-        <p>Direction Générale des Forêts (DGF)</p>
-        <a href='http://www.dgf.org.dz/fr'>Visit Website</a>
-        </div>
-    </div>
-    <div className='partenaire'>
-        <img src="./images/onas.jpg" className='img-style'/>
-        <div className='content'>
-        <p>Office National de l'Assainissement (ONAS)</p>
-        <a href='http://www.onas.nat.tn/Fr/index.php?code=3'>Visit Website</a>
-        </div>
-    </div>
+    ))
+  }
+
    </section>
     </>
     )
