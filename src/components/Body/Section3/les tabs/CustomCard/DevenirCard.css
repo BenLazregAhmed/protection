@@ -31,6 +31,9 @@
 .arrow-row{
     justify-content: end;
 }
+.arrow-row i{
+    margin-left: 90%;
+}
 .arrow-row i:hover{
     transform: scaleX(1.2);
 }

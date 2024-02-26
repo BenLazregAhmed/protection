@@ -6,7 +6,8 @@ import CardText from 'react-bootstrap/esm/CardText';
 import './DevenirCard.css'
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
-function DevinirCard({icon,text}) {
+import { Link } from 'react-router-dom';
+function DevinirCard({icon,text,path}) {
   return (
     <Card className='devenir'>
         <Container>
@@ -21,7 +22,7 @@ function DevinirCard({icon,text}) {
                 </Card.Body>
             </Row>
             <Row className='arrow-row'>
-                <i className="fa-solid fa-circle-arrow-right fa-2xl"></i>
+                <a className='info-card-link' href={path}><i className="fa-solid fa-circle-arrow-right fa-2xl"></i></a>
             </Row>
         </Container>      
     </Card>

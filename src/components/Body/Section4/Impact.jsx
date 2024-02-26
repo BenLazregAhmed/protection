@@ -16,19 +16,19 @@ function Impact() {
                 </p>
             </Row>
             <Row className='logos-row'>
-                <Col>
+                <Col xs={3} md={6} lg={3}>
                     <i className="fa-solid fa-cloud-sun-rain fa-2xl"></i>
                     <h2>CLIMAT</h2>
                 </Col>
-                <Col>
+                <Col xs={3} md={6} lg={3}>
                     <i className="fa-solid fa-crow fa-2xl"></i>
-                    <h2>BIODIVERSITÉ</h2>
+                    <h2>BIODI VERSITÉ</h2>
                 </Col>
-                <Col>
+                <Col xs={3} md={6} lg={3}>
                     <i className="fa-solid fa-water fa-2xl"></i>
                     <h2>SOLS & EAU</h2>
                 </Col>
-                <Col>
+                <Col xs={3} md={6} lg={3}>
                     <i className="fa-solid fa-hand-holding-dollar fa-2xl"></i>
                     <h2>SOCIAL & ÉCONOMIQUE</h2>
                 </Col>

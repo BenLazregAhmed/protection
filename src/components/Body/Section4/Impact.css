@@ -1,5 +1,5 @@
 .impact-div{
-    height: 70vh;
+    min-height: 70vh;
     width: 90%;
     padding: 15px;
     margin: auto;
@@ -30,4 +30,7 @@
     border-radius: 15px;
     color: #fff;
     text-wrap:wrap;
+}
+.logos-row h2{
+    max-width: 60px;
 }

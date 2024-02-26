@@ -1,6 +1,6 @@
 .item-tech-div{
-    height: 350px;
-    width: 250px;
+    min-height: 350px;
+    max-width: 250px;
     border: solid;
     border-radius: 10px;
     border-width: 1px;

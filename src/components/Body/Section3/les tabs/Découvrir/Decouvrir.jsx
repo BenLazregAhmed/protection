@@ -9,15 +9,15 @@ function Decouvrir() {
   return (
     <Container>
         <Row className='rowCardDevenir' lg={'auto'}>
-          <Col lg={'4'} sm={'2'}>
-          <DevinirCard icon={<i className="fa-solid fa-tree fa-2xl"></i>} text={'Les Parcs'}></DevinirCard>
+          <Col lg={'4'} sm={'4'}>
+          <DevinirCard icon={<i className="fa-solid fa-tree fa-2xl"></i>} text={'Les Parcs'} path={'/parcs'}></DevinirCard>
           </Col>
-          <Col lg={'4'} sm={'2'}>
-          <DevinirCard icon={<i className="fa-solid fa-gamepad fa-2xl"></i>} text={'Les Lieux De Loisir'}></DevinirCard>
+          <Col lg={'4'} sm={'4'}>
+          <DevinirCard icon={<i className="fa-solid fa-gamepad fa-2xl"></i>} text={'Les Lieux De Loisir'} path={'/LieuxDeLoisirs'}></DevinirCard>
 
           </Col>
-          <Col lg={'4'} sm={'2'}>
-          <DevinirCard icon={<i className="fa-solid fa-mountain-sun fa-2xl"></i>} text={'Les circuits naturelles'}></DevinirCard>
+          <Col lg={'4'} sm={'4'}>
+          <DevinirCard  icon={<i className="fa-solid fa-mountain-sun fa-2xl"></i>} text={'Les circuits naturelles'} path={'/Circuit'}></DevinirCard>
 
           </Col>
         </Row>

@@ -7,15 +7,15 @@ import { Col } from 'react-bootstrap';
 function Participer() {
   return (
     <Container>
-        <Row className='rowCardDevenir'>
-          <Col lg={'4'} className='col-card-devenir'>
-          <DevinirCard icon={<i className="fa-solid fa-handshake fa-2xl"></i>} text={'Devenir Partenaire'}></DevinirCard>
+        <Row className='rowCardDevenir' lg={'auto'}>
+          <Col lg={'4'} xs={'4'} className='col-card-devenir'>
+          <DevinirCard icon={<i className="fa-solid fa-handshake fa-2xl"></i>} text={'Devenir Partenaire'} path={'/'}></DevinirCard>
           </Col>
-          <Col lg={'4'}>
-          <DevinirCard icon={<i className="fa-solid fa-users fa-2xl"></i>} text={'Devenir un Membre'}></DevinirCard>
+          <Col lg={'4'} xs={'4'} >
+          <DevinirCard icon={<i className="fa-solid fa-users fa-2xl"></i>} text={'Devenir un Membre'} path={'/'}></DevinirCard>
           </Col>
-          <Col lg={'4'}>
-          <DevinirCard icon={<i className="fa-solid fa-user-group fa-2xl"></i>} text={'Devenir un Bénificiaire'}></DevinirCard>
+          <Col lg={'4'} xs={'4'} >
+          <DevinirCard icon={<i className="fa-solid fa-user-group fa-2xl"></i>} text={'Devenir un Bénificiaire'} path={'/'}></DevinirCard>
           </Col>
         </Row>
     </Container>

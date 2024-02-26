@@ -9,8 +9,8 @@ function Explorer() {
         <Row className='rowCardDevenirExplorer' lg='auto'>
             <DevinirCard icon={<i className="fa-solid fa-chart-simple fa-2xl"></i>} text={'Nos Plans'}></DevinirCard>
             <DevinirCard icon={<i className="fa-solid fa-chalkboard-user fa-2xl"></i>} text={'Nos Formations'}></DevinirCard>
-            <DevinirCard icon={<i className="fa-solid fa-diagram-project fa-2xl"></i>} text={'Nos Projets'}></DevinirCard>
-            <DevinirCard icon={<i className="fa-solid fa-handshake fa-2xl"></i>} text={'Nos Partenaire'}></DevinirCard>
+            <DevinirCard icon={<i className="fa-solid fa-diagram-project fa-2xl"></i>} text={'Nos Projets'} path={'/ListeProjets'}></DevinirCard>
+            <DevinirCard icon={<i className="fa-solid fa-handshake fa-2xl"></i>} text={'Nos Partenaire'} path={'/PartenairesPublic'}></DevinirCard>
         </Row>
     </Container>
   )

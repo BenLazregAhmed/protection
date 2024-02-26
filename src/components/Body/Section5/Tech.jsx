@@ -21,16 +21,16 @@ function Tech() {
             </p>
         </Row>
         <Row className='logos-row'>
-            <Col>
+            <Col xs={3} md={6} lg={3}>
                 <ItemTech logo={<i className="fa-solid fa-chart-simple fa-2xl"></i>} titre={'PROJECTION'} text={txt1}></ItemTech>
             </Col>
-            <Col>
+            <Col xs={3} md={6} lg={3}>
                 <ItemTech logo={<i className="fa-solid fa-satellite fa-2xl"></i>} titre={'MONITORING'} text={txt2}></ItemTech>
             </Col>
-            <Col>
+            <Col xs={3} md={6} lg={3}>
                 <ItemTech logo={<i className="fa-brands fa-bitcoin fa-2xl"></i>} titre={'TRAÇABILITÉ'} text={txt3}></ItemTech>
             </Col>
-            <Col>
+            <Col xs={3} md={6} lg={3}>
                 <ItemTech logo={<i className="fa-solid fa-list-check fa-2xl"></i>} titre={'GESTION ADAPTATIVE'} text={txt4}></ItemTech>
             </Col>
         </Row>
