@@ -3,7 +3,10 @@ import './SignForm.css'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Button from 'react-bootstrap/esm/Button'
+import { Navigate, useNavigation } from 'react-router-dom'
+import Toast from 'react-bootstrap/Toast';
 function SignForm() {
+    const [showA, setShowA] = useState(true);
     const [email,setEmail]=useState('');
     const [name,setName]=useState('');
     const [FamName,setFname]=useState(''); 
@@ -11,6 +14,19 @@ function SignForm() {
     const [ConfirmPassword,setConfirmPassword]=useState('');
     const [tel,setTel]=useState('');
     const [gender,setGender]=useState('Male');
+    const toggleShowA = () => setShowA(!showA);
+    const navigate =useNavigation();
+    const handleAdd=()=>{
+         
+          fetch('http://localhost:8080/users/set-user',{
+          method:'POST',
+          headers:{'content-type':'application/json'},
+          body: JSON.stringify({nom:name,prenom:FamName,email,password:passwd,numero:tel,sexe:gender,admin:false})
+        }).then(console.log(JSON.stringify({name,FamName,email,passwd,tel,gender})))
+         navigate('/login')
+        
+        }
+      
   return (
     <>
         <div className='SignUp-div'>
@@ -44,7 +60,7 @@ function SignForm() {
                     </select>
                 </Row>
                 <Row>
-                    <Button type='submit'>Sign Up</Button>
+                    <Button type='submit' onClick={handleAdd}>Sign Up</Button>
                 </Row>
             </Container>
         </form>
