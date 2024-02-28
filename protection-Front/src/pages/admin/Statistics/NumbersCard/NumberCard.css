@@ -1,0 +1,48 @@
+.admin-num-card{
+    height: 210px;
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 5px 8px 6px rgb(92, 90, 90);
+    color: white;
+    padding-left: 1em;
+}
+.yellow-card{
+    background-color: #FFBF00;
+  }
+  .purple-card{
+    background-color: #540375;
+  }
+  .orange-card{
+    background-color: #FF7000;
+  }
+  .teal-card{
+    background-color: #10A19D;
+  }
+.admin-num-card-h4{
+    color: white;
+    font-family:sans-serif ,'Segoe UI', Tahoma, Geneva, Verdana ;
+    font-size: 30px;
+    font-weight: 700;
+}
+.admin-num-card-p{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.admin-num-card-p i{
+    margin-left: 60%;
+}
+.admin-num-card-link{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.admin-num-card a{
+    text-decoration: none;
+    background-color:  white;
+}
+.admin-num-card a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: lightgrey;
+}

@@ -1,0 +1,48 @@
+.SignUp-div{
+    height: 95vh;
+    width: 500px;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+    padding: 15px;
+    border-left: solid 1px;
+    border-top: solid 1px;
+}
+.SignUp-div .row{
+    display: flex;
+    justify-content:center;
+}
+.SignUp-div .row *{
+    margin-bottom: 1em;
+}
+.SignUp-row-title{
+    background-color: #025464;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    height: 9vh;
+}
+.SignUp-div input{
+    margin-top: 1em;
+    width: 70%;
+    height: 40px;
+    border-radius: 7px;
+    border-width: 1px;
+}
+.SignUp-div select{
+    width: 60%;
+    height: 35px;
+}
+.SignUp-div .btn{
+    margin-top: 2em;
+    width: 40%;
+    height: 40px;
+    background-color: #025464;
+    border-color: #025464;
+}
+.SignUp-div .btn:hover{
+    background-color: #025464f2;
+}

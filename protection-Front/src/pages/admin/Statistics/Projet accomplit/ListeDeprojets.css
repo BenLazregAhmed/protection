@@ -1,0 +1,19 @@
+.ul-projet{
+    background-color: aliceblue;
+    width: 800px;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 5px 8px 6px rgb(92, 90, 90);
+}
+.ul-projet li h5{
+    color: #C3ACD0;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.projet-list-p{
+    color: #F99417;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+}

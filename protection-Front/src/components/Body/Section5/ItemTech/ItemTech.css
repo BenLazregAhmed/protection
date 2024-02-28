@@ -1,0 +1,24 @@
+.item-tech-div{
+    min-height: 350px;
+    max-width: 250px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #e9eceffc;
+}
+.item-tech-div h3{
+    text-align: center;
+}
+.item-tech-div i{
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    
+}
+.logo-tech-row{
+    margin: auto;
+}

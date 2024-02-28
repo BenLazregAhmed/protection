@@ -1,0 +1,36 @@
+.impact-div{
+    min-height: 70vh;
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 2em;
+    background-image: url("../../../../images/impact.jpg");
+    background-repeat: repeat-x;
+    background-size: 82%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+    border-radius: 15px;
+    color: #102C57;
+}
+.impact-div h1{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.impact-div p{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 4em;
+    font-size: large;
+    font-weight: 550;
+    background-color: #102c5798;
+    border-radius: 15px;
+    color: #fff;
+    text-wrap:wrap;
+}
+.logos-row h2{
+    max-width: 60px;
+}

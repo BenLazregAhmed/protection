@@ -1,0 +1,64 @@
+.logIn-div{
+    height: 80vh;
+    width: 500px;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+    padding: 15px;
+    border-left: solid 1px;
+    border-top: solid 1px;
+}
+.logIn-div .row{
+    display: flex;
+    justify-content:center;
+}
+.logIn-div .row *{
+    margin-bottom: 1em;
+}
+.login-row-title{
+    background-color: #025464;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    height: 9vh;
+}
+.login-row-email label{
+    font-size: larger;
+    margin-top: 1em;
+
+}
+.login-row-email input[type="email"]{
+    width: 80%;
+}
+.login-row-password input[type="password"]{
+    width: 80%;
+    height: 47px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.login-row-password label{
+    font-size: larger;
+    margin-top: 1em;
+
+}
+.pass-link{
+    margin-top: 1em;
+    color: #025464;
+    font-size:20px;
+}
+.pass-link:hover{
+    color: #025464cd;
+}
+.logIn-div .btn{
+    margin-top: 4em;
+    width: 40%;
+    height: 40px;
+    background-color: #025464;
+    border-color: #025464;
+}
+.logIn-div .btn:hover{
+    background-color: #025464f2;
+}

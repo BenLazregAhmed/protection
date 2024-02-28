@@ -1,0 +1,29 @@
+.table{
+    width: 85%;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 6px 6px 3px rgb(92, 90, 90);
+    
+}
+.read-more{
+    margin-left: 75%;
+    margin-top: 1em;
+}
+.btn-manage{
+    width: max-content;
+    padding: 0.5em;
+    margin-top: 2em;
+    margin-left: 85%;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+.action-td{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.action-p:hover{
+    cursor: pointer;
+}

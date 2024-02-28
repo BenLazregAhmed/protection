@@ -1,0 +1,17 @@
+.Signup-big-title-row {
+    background-color: #102C57;
+    box-shadow: 10px 10px 6px rgb(92, 90, 90);
+    border-radius: 6px;
+    color: #F8F0E5;
+    text-align: center;
+    width: 90%;
+    height: 11vh;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: large;
+}
+.Signup-form-row img{
+    width: 100%;
+    height: 100%;
+}

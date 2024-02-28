@@ -1,0 +1,17 @@
+.rowCardDevenir{
+    justify-content: space-between;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    height: 300px;
+}
+.col-card-devenir{
+    padding: 0;
+    margin: 0;
+    width: max-content;
+
+}
+.devenir{
+    width: 80%;
+}

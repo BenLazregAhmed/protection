@@ -1,0 +1,22 @@
+.drop-down-first-section{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.drop-down-first-section h1{
+    text-align: center;
+}
+.drop-down-first-section p{
+    text-align: center;
+}
+.drop-down-first-section .btn-drop-down-section1{
+    height: 50px;
+    width: 70%;
+    border-width: 3px;
+    font-size: larger;
+    margin: auto;
+}
+

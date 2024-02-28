@@ -1,0 +1,20 @@
+
+.divTitle{
+    display: flex;
+}
+.divTitle img{
+    width: 60px;
+    height: 60px;
+}
+.titleH1{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.titleH4{
+    color:burlywood;
+}
+.titleH6{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

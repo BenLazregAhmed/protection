@@ -1,0 +1,30 @@
+.carousel{
+    width: 100%;
+}
+.carousel-inner{
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+}
+.carousel-item{
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+}
+.carousel-item img{
+    height: 700px;
+    width: 100%;
+    margin-left: 0;
+}
+.carousel-item .carousel-caption{
+    height: 100%;
+
+}
+.carousel-control-prev{
+    margin: auto;
+    height: 20%;
+}
+.carousel-control-next{
+    margin: auto;
+    height: 20%;
+}

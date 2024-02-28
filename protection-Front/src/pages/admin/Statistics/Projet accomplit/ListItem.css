@@ -1,0 +1,27 @@
+.projet-list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.projet-list-item i{
+    margin-bottom: 1em;
+}
+.fa-circle-arrow-right:hover{
+    cursor: pointer;
+
+}
+.fa-circle-arrow-right:active{
+    transform: scale(0.93);
+    transition: 0.4s ease;
+}
+.progress{
+    width: 150px;
+    margin-top: 1em;
+}
+.projet-list-item-p{
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #100303;
+}

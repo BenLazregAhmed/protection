@@ -1,0 +1,303 @@
+@media (min-width: 324px)
+{
+.Mgsfh {
+    padding: 0px 1rem;
+    flex-direction: row;
+}
+}
+
+@media (min-width: 324px) {
+    .Mgsfh {
+      flex-direction: row;
+    }
+  
+    .gKWAik {
+      flex-direction: row;
+      padding: 0px 0px 0px 4.8rem;
+    }
+  }
+  
+
+@media (min-width: 1100px) {
+    .Mgsfh > .pageContent {
+      flex: 4 1 0%;
+    }
+}
+.Mgsfh {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/* *, :after, :before {
+    box-sizing: inherit;
+} */
+
+/* div {
+    display: block;
+} */
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    color: rgb(60, 60, 59);
+    background: rgb(255, 255, 255);
+}
+
+.iUgqkB {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+}
+
+.lcARsz {
+    display: flex;
+    row-gap: 4rem;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 70rem;
+}
+.hZiMfG {
+    position: sticky;
+    top: 180px;
+    border-left: 1px solid rgb(211, 211, 211);
+    border-top-color: rgb(211, 211, 211);
+    border-right-color: rgb(211, 211, 211);
+    border-bottom-color: rgb(211, 211, 211);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    margin-bottom: 5rem;
+}
+
+.bQvgnD:not(:last-child) {
+    margin-bottom: 2.3rem;
+}
+
+.bQvgnD {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.4rem;
+}
+
+/* li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+} */
+.fQEjop {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+/* *, :after, :before {
+    box-sizing: inherit;
+} */
+.gtZoKZ {
+    max-width: 32rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.gYeoJc {
+    text-decoration: none;
+    color: rgb(60, 60, 59);
+}
+
+.gtZoKZ {
+    max-width: 30rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+/* .fryThX {
+    height: 60%;
+    position: absolute;
+    left: -0.175rem;
+    border-left: 3px solid rgb(99, 158, 64);
+    border-top-color: rgb(99, 158, 64);
+    border-right-color: rgb(99, 158, 64);
+    border-bottom-color: rgb(99, 158, 64);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    z-index: 999;
+  }
+ */
+
+.bQvgnD:not(:last-child) {
+    margin-bottom: 2.3rem;
+}
+/* blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul {
+    margin: 0;
+    padding: 0;
+} */
+
+ul {
+    list-style: none;
+}
+.bQvgnD {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.4rem;
+}
+.hwSaPt {
+    font-size: 1.6rem;
+    color: rgb(60, 60, 59);
+    font-weight: 700;
+    line-height: 2.4rem;
+    max-width: 32.5rem;
+}
+.hwSaPt {
+    font-size: 1.6rem;
+    color: rgb(60, 60, 59);
+    font-weight: 700;
+    line-height: 2.4rem;
+    max-width: 32.5rem;
+}
+
+/* h4, h5 {
+    scroll-margin-top: 14rem;
+} */
+.fryThX {
+    /* height: 60%; */
+    position: absolute;
+    left: -0.175rem;
+    border-left: 3px solid #2c5d66; /*rgb(99, 158, 64);*/
+    border-top-color:#2c5d66;   
+    border-right-color:#2c5d66;
+    border-bottom-color: #2c5d66;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    z-index: 999;
+}
+
+.sc-aec1bf2e-0 Mgsfh
+{font-family: Montserrat, sans-serif;
+font-size: 10px;
+--fa-style-family-brands: "Font Awesome 6 Brands";
+--fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+--fa-style-family-duotone: "Font Awesome 6 Duotone";
+--fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+--fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";
+--fa-font-regular: normal 400 1em/1 "Font Awesome 6 Pro";
+--fa-font-solid: normal 900 1em/1 "Font Awesome 6 Pro";
+--fa-style-family-classic: "Font Awesome 6 Pro";
+--fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";
+--fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+--fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+--fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+--fa-style-family-sharp: "Font Awesome 6 Sharp";
+--fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";
+--swiper-theme-color: #007aff;
+color: rgb(60, 60, 59);
+box-sizing: inherit;
+width: 100%;
+display: flex;
+padding: 0px 1rem;
+flex-direction: row;
+}
+@media (min-width: 1024px)
+{
+.Mgsfh > .pageContent {
+    flex: 4 1 0%;
+}
+}
+.gxablo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+.gKWAik.start {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.gKWAik.medium {
+    margin-top: 4.8rem;
+}
+@media (min-width: 1024px)
+{
+.gKWAik {
+    padding: 0px 0px 0px 4.8rem;
+}
+}
+.gKWAik {
+    width: 100%;
+    display: flex;
+    padding: 0px 2.4rem;
+}
+.eKtGsm {
+    display: flex;
+}
+.fqwrnT {
+    visibility: hidden;
+    position: relative;
+    top: -15rem;
+}
+.dsjbAu {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    color: #2c5d66;
+}
+.dsjbAu::before {
+    content: "";
+    position: absolute;
+    width: 4rem;
+    border-top: 1px solid #2c5d66;
+    margin-top: -1.5rem;
+}
+
+.HHVxH {
+    width: 100%;
+    max-width: 113.6rem;
+    font-family: Montserrat, sans-serif;
+    color: rgb(60, 60, 59);
+    line-height: 2.6rem;
+}
+.HHVxH h3 {
+    font-family: Oswald, sans-serif;
+    font-weight: 80;
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+
+.HHVxH p {
+    font-size: 1rem;
+}
+.HHVxH h2, .HHVxH h3, .HHVxH h4, .HHVxH h5, .HHVxH h6 {
+    margin-top: 1.4rem;
+    margin-bottom: 0.8rem;
+    font-family: Oswald, sans-serif;
+    color: rgb(60, 60, 59);
+}
+
+.gKWAik.start {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.gKWAik.medium {
+    margin-top: 4.8rem;
+}
+@media (min-width: 924px)
+{
+.gKWAik {
+    padding: 0px 0px 0px 4.8rem;
+}}
+
+.gKWAik {
+    width: 100%;
+    display: inline-block;
+    padding: 0px 2.4rem;
+}

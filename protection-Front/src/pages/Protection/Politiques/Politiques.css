@@ -1,0 +1,20 @@
+
+.politics-h1 {
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em; 
+    color: #825f13; 
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+
+  .politics-h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em; 
+    color: #071811; 
+    margin-bottom: 10px; /* Marge en bas */
+  }
+.politics-img{
+  width: 600px;
+  height: 350px;
+}

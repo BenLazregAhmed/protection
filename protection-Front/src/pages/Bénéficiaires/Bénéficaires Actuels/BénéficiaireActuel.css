@@ -1,0 +1,22 @@
+.t{letter-spacing: 2px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    color:rgb(224, 156, 11);
+    margin-top: 25px;
+}
+.card-beneficiaire{
+    max-width: 500px;
+    height: 300px;
+}
+.card-beneficiaire {
+    color:rgb(28, 57, 86);
+    font-weight: bold;
+}
+.card-beneficiaire-desc{
+    color:black;
+    font-weight: 80;
+}
+.itemBénef{
+    color :rgb(14, 103, 76);
+}

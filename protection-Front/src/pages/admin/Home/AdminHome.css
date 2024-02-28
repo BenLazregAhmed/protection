@@ -1,0 +1,72 @@
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+@keyframes slideOut {
+    0% {
+        transform: translateX(0); /* Start position */
+      }
+    100% {
+        transform: translateX(-100%); /* End position */
+      }
+  }
+.admin-home-div{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    background-color: #f4f3ff;
+}
+.admin-header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 5px 5px 4px rgb(92, 90, 90);
+}
+.dashboard-home-div{
+    height: 100%;
+    width: 100%;
+    animation: slideIn 1s ease-out;
+    transition: display 1s;
+    opacity: 1;
+    visibility: visible;
+}
+.hide-off-canvas-animation{
+    transition: 1s ease-out;
+    position: fixed;
+    top: 80px;
+    z-index: 0;
+  }
+.hide-off-canvas{
+    transition: display 2s opacity 1s ease-out;
+    display: none;
+}
+.admin-cards-row{
+    margin-top: 2em;
+    margin-left: 6em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    height: fit-content;
+}
+.admin-cards-row col{
+    width: fit-content;
+    height: fit-content;
+}
+.home-stats-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.home-side-icons{
+  position: fixed;
+  top: 80px;
+  z-index: 0;
+  width: fit-content;
+}

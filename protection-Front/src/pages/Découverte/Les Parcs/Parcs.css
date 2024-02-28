@@ -1,0 +1,44 @@
+.parc-col{
+  padding: 0;
+  height: 350px;
+}
+.parc-card:hover{
+  background-color: rgb(249, 241, 228);
+  transform: scale(1.05);
+  box-shadow: inset;
+}
+.parc-card{
+  width: 20%;
+  height: 100%;
+  margin-left: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  transition: transform 500ms ease;
+  cursor:pointer;
+}
+.parc-card img{
+  height: 200px;
+  margin-left: 0;
+}
+.h5{
+  color: #113946;
+  font-family:sans-serif;
+  font-weight: 700;
+}
+.parc-card p{
+  color: #c69657;
+  font-family:sans-serif;
+  font-weight: 500;
+  margin-bottom: 2em;
+}
+.parc-card .btn{
+  border-radius: 20px;
+}
+.parc-card a{
+  text-decoration: none;
+  font-weight: 600;
+}
+.parc-card a:hover{
+  text-decoration: none;
+  color: white;
+}
